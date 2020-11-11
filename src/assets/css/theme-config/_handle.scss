@@ -1,0 +1,52 @@
+@import './config-theme';
+@mixin themeify {
+  @each $theme-name, $theme-map in $themes {
+      $theme-map: $theme-map !global;
+      [data-theme="#{$theme-name}"] & {
+          @content;
+      }
+  }
+}
+
+//声明一个根据Key获取颜色的function
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
+//获取背景颜色 权重低
+@mixin background_color($color) {
+  @include themeify {
+      background-color: themed($color);
+  }
+}
+@mixin background_color_litter($color) {
+  @include themeify {
+      background-color: themed($color)!important;
+  }
+}
+//获取字体颜色 权重低
+@mixin size_color($color) {
+  @include themeify {
+      color: themed($color);
+  }
+}
+//获取字体颜色 权重高
+@mixin size_color_litter($color) {
+  @include themeify {
+      color: themed($color)!important;
+  }
+}
+
+//左边框
+@mixin border_left($color) {
+  @include themeify {
+      border-left: 1px solid themed($color);
+  }
+}
+//边框颜色
+@mixin border_color($color) {
+  @include themeify {
+      border-color: themed($color);
+  }
+}
+
+

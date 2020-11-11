@@ -1,0 +1,54 @@
+// 默认主题
+$default-theme : (
+  element-color:#11998D,
+  default-color: #11998D,
+  base-color: #FFF,
+  sider-active-color:#95DE53,
+  sider-hover-color:#117E75,
+);
+//红色主题
+$red-theme : (
+  element-color:rgb(233, 120, 120),
+  default-color: rgb(233, 120, 120),
+  base-color: #FFF,
+  sider-active-color:rgb(255, 0, 0),
+  sider-hover-color:rgb(141, 70, 70)
+);
+//暗色
+$black-theme : (
+  element-color: rgb(0, 0, 0),
+  default-color: rgb(0, 0, 0),
+  base-color: #FFF,
+  sider-active-color:rgb(175, 175, 175),
+  sider-hover-color:rgb(112, 112, 112)
+);
+//暗色
+$dark-theme : (
+  element-color:rgb(152, 248, 200),
+  default-color: rgb(152, 248, 200),
+  base-color: rgb(139, 136, 136),
+  sider-active-color:rgb(37, 37, 36),
+  sider-hover-color:rgb(97, 243, 170)
+);
+//定义映射集合
+$themes: (
+  default-theme: $default-theme,
+  red-theme: $red-theme,
+  black-theme:$black-theme,
+  dark-theme:$dark-theme
+);
+
+
+//换肤页面的颜色 可以不写
+.default-theme{
+  background: #11998D;
+}
+.red-theme{
+  background: rgb(233, 120, 120);
+}
+.black-theme{
+  background: rgb(0, 0, 0);
+}
+.dark-theme{
+  background: rgb(152, 248, 200);
+}

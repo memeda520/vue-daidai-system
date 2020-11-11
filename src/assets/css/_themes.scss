@@ -1,0 +1,104 @@
+@import '../css/theme-config/handle';
+
+// 头部
+.header {
+  @include background_color_litter("default-color");
+  @include size_color_litter("base-color");
+
+  .btn-bell .el-icon-bell {
+    @include size_color_litter("base-color");
+  }
+
+  .el-dropdown-link {
+    @include size_color_litter("base-color");
+  }
+  .header-user-con{
+    > div{
+      @include border_left("base-color");
+    }
+  }
+}
+
+/* 侧边栏 */
+.my_sidebar {
+  @include background_color_litter("default-color");
+
+  .el-menu {
+    @include background_color_litter("default-color");
+  }
+
+  .el-menu-item {
+    @include background_color_litter("default-color");
+    @include size_color_litter("base-color");
+
+    >i,
+    >span {
+      @include size_color_litter("base-color");
+    }
+
+    &:hover {
+      @include background_color_litter("sider-hover-color");
+    }
+  }
+
+  .el-submenu {
+    >.el-submenu__title {
+      @include background_color_litter("default-color");
+      @include size_color_litter("base-color");
+
+      >i,
+      >span {
+        @include size_color_litter("base-color");
+      }
+
+      &:hover {
+        @include background_color_litter("sider-hover-color");
+      }
+    }
+  }
+
+  // 点击后
+  .is-active {
+    @include background_color_litter("default-color");
+    @include size_color_litter("sider-active-color");
+
+    >i,
+    >span {
+      @include size_color_litter("sider-active-color");
+    }
+
+    >.el-submenu__title {
+      @include size_color_litter("sider-active-color");
+
+      >i,
+      >span {
+        @include size_color_litter("sider-active-color");
+      }
+    }
+  }
+}
+
+// 标签
+.tags {
+  .tags-li:not(.active):hover {
+    @include background_color_litter("default-color");
+    @include size_color_litter("base-color");
+
+    .tags-li-title {
+      @include size_color_litter("base-color");
+    }
+  }
+
+  .tags-li.active {
+    @include background_color_litter("default-color");
+    @include size_color_litter("base-color");
+
+    .tags-li-title {
+      @include size_color_litter("base-color");
+    }
+  }
+
+  .tags-li-title {
+    @include size_color_litter("default-color");
+  }
+}
