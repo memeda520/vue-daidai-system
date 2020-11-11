@@ -23,15 +23,16 @@
 
 ###  登录
 
-![image-20200915101630140](http://www.daidaibg.com/imgs/login.png)
+![登录](http://www.daidaibg.com/imgs/login.png)
 
 
 
 ### 切换主题 默认与暗色
 
-![image-20200915101724869](http://www.daidaibg.com/imgs/defaut.png)
+![默认](http://www.daidaibg.com/imgs/defaut.png)
 
-![image-20200915102708467](http://www.daidaibg.com/imgs/black.png)
+![黑色](http://www.daidaibg.com/imgs/black.png)
+一共配置了四种颜色
 
 ## 功能
 
@@ -70,9 +71,6 @@ npm run build
 
 ### 更换主题
 
-![](http://www.daidaibg.com/imgs/dark.png)
-
-
 
 ```
 theme-config/_config-theme.scss   //主题颜色配置（更改里面的颜色，key值最好不要动，颜色随意配置）
@@ -85,7 +83,7 @@ _themes.scss  //这里我配置的是 一些地方的样式根据主题改变
 
 #### main.js  如果想要element根据哦我们配色改变和不需要根据我们主题改变注释与解开就可以
 
-![image-20200915095345762](C:\Users\刘小呆\AppData\Roaming\Typora\typora-user-images\image-20200915095345762.png)
+![](http://www.daidaibg.com/imgs/dark.p
 
 
 
