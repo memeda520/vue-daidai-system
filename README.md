@@ -16,7 +16,7 @@
   </a>
 
 
-基于 Vue + Element UI 的后台管理系统解决方案。[线上地址](http://www.daidaibg.com/app/#/login)
+基于 Vue + Element UI 的后台管理系统解决方案。[线上地址](http://www.daidaibg.com/app/#/vue-daidai-system)
 
 
 ## 项目截图
