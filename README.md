@@ -23,15 +23,15 @@
 
 ###  登录
 
-![image-20200915101630140](C:\Users\刘小呆\AppData\Roaming\Typora\typora-user-images\image-20200915101630140.png)
+![image-20200915101630140](http://www.daidaibg.com/imgs/login.png)
 
 
 
 ### 切换主题 默认与暗色
 
-![image-20200915101724869](C:\Users\刘小呆\AppData\Roaming\Typora\typora-user-images\image-20200915101724869.png)
+![image-20200915101724869](http://www.daidaibg.com/imgs/defaut.png)
 
-![image-20200915102708467](C:\Users\刘小呆\AppData\Roaming\Typora\typora-user-images\image-20200915102708467.png)
+![image-20200915102708467](http://www.daidaibg.com/imgs/black.png)
 
 ## 功能
 
@@ -70,7 +70,7 @@ npm run build
 
 ### 更换主题
 
-![](C:\Users\刘小呆\AppData\Roaming\Typora\typora-user-images\image-20200915100109774.png)
+![](http://www.daidaibg.com/imgs/dark.png)
 
 
 
